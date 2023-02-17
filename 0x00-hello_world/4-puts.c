@@ -1,4 +1,6 @@
 #include <stdio.h>
+/* This the main method*/
+/*It returns 0*/
 
 int main(void)
 {
