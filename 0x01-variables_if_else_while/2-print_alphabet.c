@@ -8,23 +8,11 @@
 
 int main(void)
 {
-	int n;
-	int i = 0;
+	char l;
 
-	for (n = 0 ; n < 100 ; n++)
+	for (l = 'a' ; l <= 'z' ; l++)
 	{
-		putchar(n / 10 + '0');
-		putchar(i + '0');
-		if (n < 99)
-		{
-			putchar(',');
-			putchar(32);
-		}
-		i++;
-		if (i > 9)
-		{
-			i = 0;
-		}
+		putchar(l);
 	}
 	putchar('\n');
 	return (0);
