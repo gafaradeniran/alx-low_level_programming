@@ -15,8 +15,8 @@ for (counter = 1; counter <= 10; counter++)
 for (i = 'a'; i <= 'z'; i++)
 {
 	_putchar(i);
-	_putchar('\n');
 }
+	_putchar('\n');
 }
 
 }
